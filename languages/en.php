@@ -10,7 +10,7 @@ $english = array(
 	'admin:users:unvalidated' => 'Unvalidated',
 	
 	'email:validate:subject' => "%s is requesting validation of account for %s!",
-	'email:validate:body' => "Hello %s,
+	'email:validate:body' => "Hello,
 
 A user named %s is requesting validation of their account. 
 
@@ -76,8 +76,9 @@ Password: the one you provided during registration
 	'uservalidationbyadmin:messages:deleted_user' => 'User deleted.',
 	'uservalidationbyadmin:messages:deleted_users' => 'All checked users deleted.',
 	'uservalidationbyadmin:messages:resent_validation' => 'Validation request resent.',
-	'uservalidationbyadmin:messages:resent_validations' => 'Validation requests resent to all checked users.'
+	'uservalidationbyadmin:messages:resent_validations' => 'Validation requests resent to all checked users.',
 
+	'uservalidationbyadmin:settings:info' => 'Enter the email ids to be notified when a new user registers. If you have multiple ids seperate them with a comma.'
 );
 
 add_translation("en", $english);

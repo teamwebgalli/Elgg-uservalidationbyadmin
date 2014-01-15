@@ -1,0 +1,1 @@
+<?phpecho '<div>';echo elgg_echo('uservalidationbyadmin:settings:info');echo ' ';echo elgg_view('input/text', array(	'name' => "params[emails]",	'value' => $vars['entity']->emails,));echo '</div>';
